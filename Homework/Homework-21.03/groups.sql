@@ -24,8 +24,8 @@ Create Table GroupMembers(
 
 
 INSERT INTO GroupTable(name, last_meet) VALUES("1 Group", "2011-11-10 23:59:59");
-INSERT INTO GroupTable(name) VALUES("2 Group");
-INSERT INTO GroupTable(name) VALUES("3 Group");
+INSERT INTO GroupTable(name, last_meet) VALUES("2 Group", "2012-11-10 23:59:59");
+INSERT INTO GroupTable(name, last_meet) VALUES("3 Group", "2010-11-10 23:59:59");
 
 
 INSERT INTO Member(name, type) VALUES("Dimba", "Student");
