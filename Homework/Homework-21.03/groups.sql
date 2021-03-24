@@ -44,7 +44,8 @@ INSERT INTO GroupMembers(group_id, member_id) VALUES(1, 4);
 INSERT INTO GroupMembers(group_id, member_id) VALUES(2, 5);
 
 
-INSERT INTO GroupMembers(group_id) VALUES(3);
+INSERT INTO GroupMembers(group_id) VALUES(3);Enumerating objects: 7, done.
+
 
 
 SELECT GroupTable.name AS "Group name", Member.name AS "Member name",
